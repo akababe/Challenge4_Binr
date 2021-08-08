@@ -13,24 +13,72 @@
     <title>Game</title>
   </head>
   <body>
+    <!-- Rock Paper Scissors -->
     <div class="container-fluid game">
-      <div class="container border">
+      <div class="container py-2">
         <h3 class="text-uppercase">Rock Paper Scissors</h3>
-        <div class="row border text-center text-uppercase py-5">
-          <div class="col-sm-6">
-            <h5>Player 1</h5>
+      </div>
+      <div class="container col-12 col-md-7 text-center fw-bold py-4 text-uppercase">
+        <div class="row text-center mb-3 fs-3">
+          <div class="col-sm-4">Player 1</div>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4">Com</div>
+        </div>
+        <!-- First Row Batu -->
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="shadow mx-auto">
+              <img src="/assets/img/batu.png" alt="" />
+            </div>
           </div>
-          <div class="col-sm-6">
-            <h5>Com</h5>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4">
+            <div class="shadow mx-auto">
+              <img src="/assets/img/batu.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="row border text-center">
-          <div class="col-sm-6">
-            <img src="/assets/img/batu.png" alt="" />
+        <!-- Second Row VS and Paper -->
+        <div class="row mt-sm-3 mb-sm-3 text-center mb-1">
+          <div class="col-sm-4">
+            <div class="shadow mx-auto">
+              <img src="/assets/img/kertas.png" alt="" />
+            </div>
           </div>
-          <div class="col-sm-6">
-            <img src="/assets/img/batu.png" alt="" />
+          <div class="col-sm-4 align-content-center text-center versus">
+            <div class="mx-auto text-center">
+              <h1>VS</h1>
+              <!-- <h4>Player 1</h4>
+              <h4>WIN</h4> -->
+            </div>
           </div>
+          <div class="col-sm-4">
+            <div class="shadow mx-auto">
+              <img src="/assets/img/kertas.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Third Row Scissor -->
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="shadow mx-auto">
+              <img src="/assets/img/gunting.png" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4">
+            <div class="shadow mx-auto">
+              <img src="/assets/img/gunting.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Reset Button -->
+        <div class="row text-center">
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4">
+            <img src="/assets/img/refresh.png" alt="" class="refresh-button mx-auto" />
+          </div>
+          <div class="col-sm-4"></div>
         </div>
       </div>
     </div>

@@ -7,8 +7,33 @@
   color: rgb(202, 137, 39);
 }
 
-.container img {
+.row img {
   width: 80px;
   height: 80px;
-  background-color: #fff;
+}
+
+.shadow {
+  background-color: rgb(203, 203, 212);
+  border-radius: 5px;
+  width: 50%;
+  height: 100%;
+}
+.versus h1 {
+  color: brown;
+  font-size: 60px;
+  padding: 0%;
+}
+
+/* .versus div {
+  transform: rotate(-20deg);
+  text-align: center;
+  background-color: rgb(21, 128, 7);
+  border-radius: 5px;
+  height: 80%;
+  width: 80%;
+} */
+
+.row .refresh-button {
+  width: 80px;
+  height: 75px;
 }
