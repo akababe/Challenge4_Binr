@@ -12,12 +12,13 @@
   height: 80px;
 }
 
-.shadow {
+/* .shadow {
   background-color: rgb(203, 203, 212);
   border-radius: 5px;
   width: 50%;
   height: 100%;
-}
+  border: 5px;
+} */
 .versus h1 {
   color: brown;
   font-size: 60px;
