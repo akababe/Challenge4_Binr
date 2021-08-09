@@ -90,9 +90,10 @@
   padding-top: 7%;
   color: white;
 }
+
 .fototop {
-  height: 70px%;
-  width: 70px;
+  max-width: 65%;
+  max-height: 65%;
 }
 
 .pcard {
